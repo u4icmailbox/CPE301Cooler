@@ -4,6 +4,8 @@
 #include <LiquidCrystal.h>
 #include <Stepper.h>
 
+volatile unsigned char* port_b = (unsigned char*) 0x25; 
+
 
 
 
