@@ -5,6 +5,7 @@
 #include <Stepper.h>
 
 volatile unsigned char* port_b = (unsigned char*) 0x25; 
+//note to use the pins SDA/SCL pins 20 and 21
 
 
 
